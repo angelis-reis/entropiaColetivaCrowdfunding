@@ -1,0 +1,55 @@
+pt:
+  pages:
+    hello:
+      page-title: "Saiba mais"
+      hero:
+        title: "Vamos juntos fazer a ciência acontecer!"
+        subtitle: "Assista ao vídeo e entenda a Entropia Coletiva"
+        people_html: "Pessoas já apoiaram pelo menos <br>1 campanha de pesquisa no Entropia Coletiva"
+        projects_html: "campanhas já foram <br>financiados no Entropia Coletiva"
+        money_html: "Doados para campanhas <br>publicados por aqui"
+        success: "campanhas já foram financiados no Entropia Coletiva"
+        money: "Doados para campanhas publicados por aqui"
+      idea:
+        title: "Tudo começa com ciência!"
+        subtitle: "Mas ter uma campanha não basta. É preciso ter acesso  aos recursos necessários para financiá-lo."
+      fund:
+        title: "Crowdfunding científico"
+        subtitle: " Formada por pesquisadores brasileiros, a Entropia Coletiva viabiliza uma nova maneira de produzir e divulgar ciência."
+      campaign:
+        title: "Campanhas de arrecadação"
+        subtitle: "Pesquisadores têm até 60 dias para captar a meta financeira que determinaram para o desenvolver a campanha de pesquisa. Em troca dos apoios, oferecem a divulgação científica direta e/ou outras recompensas criativas."
+      allornothing:
+        title: "Campanhas flexíveis!"
+        subtitle: "O objetivo é bater a meta no prazo para receber o valor arrecadado, neste caso a taxa do Entropia Coletiva será de 13%."
+      success:
+        title: "Nosso Time"
+        subtitle: "Nossa equipe é formada por quem conhece a ciência brasileira, somos empreendedores com origem nas ciências que decidiram sair da academia para aproximar cientista e população."
+      cta:
+        title: "Conheça a Entropia Coletiva na prática"
+        backer-cta: "Torne-se um apoiador da ciência!"
+        backer-link: "Apoie uma campanha"
+        maker-cta: "Pesquisador, mostre sua campanha de pesquisa ao mundo e arrecade dinheiro para financiá-lo."
+        maker-link: "Comece sua campanha"
+      testimonial:
+        humberto:
+          text_html: "&#8220; A plataforma Entropia Coletiva traz a solução para dois grandes problemas da ciência brasileira. A falta de verbas para financiar as pesquisas e a distância entre quem faz as pesquisas e a população. &#8221;"
+          name: "Dr. Silva Sauro"
+          credentials: "Diretor do NHI"
+      details:
+        fund:
+          title: "Financiamento Coletivo ou Crowdfunding?"
+          text: "Dois nomes para a mesma prática em que pessoas contribuem com pequenas quantias para juntas viabilizarem campanhas científicos. Crowd é multidão em inglês, funding, financiamento. Crowdfunding é financiamento pela multidão."
+        allornothing:
+          title: "Por que financiar ciência com crowdfunding?"
+          text_html: "Acreditamos em uma ciência mais integrada com a população. A ciência deve atravessar os muros da academia e chegar a população. O crowdfunding permite uma participação direta da população, escolhendo que campanhas financiar e recebendo o conhecimento científico diretamente de onde ele é produzido."                        
+        services:
+          title: "Nossos serviços"
+          text: "A Entropia Coletiva fornece suporte aos usuários do site e torna possível que campanhas científicos captem recursos de forma ágil e direta utilizando a internet. Qualquer pessoa acima de 18 anos (ou menor, mas com um representante legal) pode utilizar nossos serviços e fazer uma campanha de crowdfunding desde que a campanha esteja de acordo com nossos critérios de seleção."
+        fees:
+          title: "Como nos sustentamos"
+          text: "Cobramos 13% sobre o valor total arrecadado por cada campanha. Ficamos com cerca de 8% e 5% é repassado ao Iugu.com, meio de pagamento utilizado na Entropia Coletiva."
+        work:
+          title: "Trabalhamos com propósito e amor"
+          text: "Na Entropia Coletiva temos uma paixão, a ciência! Nossa missão é construir um ambiente onde cada vez mais campanhas científicos possam ganhar vida. Hoje somos uma equipe de 3 pessoas com muita vontade de ajudar a distribuir mais recursos para a ciência no Brasil."
+      staff: "Se enxerguei mais longe, foi por estar sobre os ombros de gigantes...Sir Isaac Newton"

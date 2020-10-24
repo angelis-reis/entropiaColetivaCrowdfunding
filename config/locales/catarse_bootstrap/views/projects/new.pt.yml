@@ -1,0 +1,31 @@
+pt:
+  projects:
+    new:
+      page-title: "Comece sua campanha"
+
+      faq:
+        titles:
+          support: "Suporte"
+          know_more: "Saiba mais"
+
+        links:
+          criteria: "Critérios de seleção"
+          suport_central: "Central de suporte"
+          support_contact: "Entre em contato com a gente"
+          how_it_works: "Como a Entropia Coletiva funciona?"
+          money: "Como receberei o dinheiro?"
+          selection: "Como as campanhas são selecionados?"
+          all_or_nothing: "Campanhas flexíveis"
+
+      form:
+        blocks:
+          first:
+            title: "Bem vindo(a)!"
+            description: "Preencha as informações abaixo para iniciar o rascunho de sua campanha. "
+
+        info:
+          permalink: http://entropiacoletiva.com/
+          goal: R$
+          online_days: dias
+
+        submit: "Salvar e continuar"

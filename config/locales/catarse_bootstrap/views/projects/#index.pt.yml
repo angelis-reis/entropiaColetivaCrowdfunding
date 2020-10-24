@@ -1,0 +1,69 @@
+ pt:
+  projects:
+    index_header:
+      subtitle: Primeira plataforma de financiamento coletivo de ciência do Brasil. Faça parte desta 
+        comunidade e financie a ciência brasileira de maneira colaborativa! 
+        Entropia Coletiva! Faça a ciência acontecer!
+      title: Faça parte do avanço científico
+    index:
+      title: 'Entropia Coletiva'
+      back_a_project: 'Apoie uma pesquisa'
+      banner_before: 'Ajude a financiar a ciência brasileira'
+      banner_before2: 'Financie pesquisas científicas'
+      page_title: 'Financie a ciência que'
+      page_subtitle: 'importa para você' 
+
+
+      banner_words:
+        0: ''
+        1: ''
+        2: ''
+        3: ''
+        4: ''
+        5: ''
+      banner_after: ''
+      see_all: 'Explorar todos'
+      near_you: 'Na sua região'
+      recents: Recentes
+      blog: Diários de Laboratório
+      expiring: Últimos dias
+      recommended: Recomendados
+      lab_note: Diários de Laboratório
+      lab_note_subtitle: Acompanhe as pesquisas, conheça o dia a dia dos laboratórios. Interaja com a ciência
+      institutions: Instituições
+      institutions_subtitle: Instituições com campanhas na Entropia Coletiva
+      banner_subtitle: 'neurociencias, biologia, sociologia, engenharia, antropologia, astronomia, tecnologia e muito mais. Conheça, inspire-se e apoie pesquisas.'
+      box:
+        by: por
+        when: em
+      banner: "Conheça a pesquisa"
+      explore: "Explore campanhas"
+      links:
+        channels: "."
+        recommended: " campanhas recomendadas"
+        expiring: "Explore campanhas nos últimos dias"
+        recents: "Explore campanhas recentes"
+        near: "Explore campanhas perto de você"
+      sidebar:
+        titles:
+          blog: blog
+          facebook: "Curta nossa página no Facebook?"
+          newsletter: "Assine nossa newsletter"
+          faq: "Tire suas dúvidas?"
+          schedule: agenda
+        placeholders:
+          email: "Digite seu e-mail"
+        buttons:
+          newsletter: Enviar
+      sections:
+        near:
+          title: 'Próximos a mim'
+        recommended:
+          title: 'Recomendados'
+        expiring:
+          title: "Últimos dias"
+        recents:
+          title: "Recentes"
+        channels:
+          title: '.'
+

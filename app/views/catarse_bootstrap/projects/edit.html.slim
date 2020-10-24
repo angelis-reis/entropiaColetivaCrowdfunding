@@ -1,0 +1,76 @@
+- content_for :js do
+  = javascript_include_tag 'redactor', '//www.google.com/jsapi', 'chartkick'
+
+- content_for :stylesheets do
+  = stylesheet_link_tag 'redactor'
+
+= render 'shared/header2'
+
+.w-section.dashboard-header.u-text-center.big
+  .w-container
+    .w-row
+      .w-col.w-col-2
+      .w-col.w-col-8
+
+        #dashboard-page-title.fontweight-semibold.fontsize-larger.lineheight-looser
+
+        #dashboard-page-subtitle.fontsize-base
+.project-dashboard-edit
+  = render partial: 'dashboard_nav', locals: {edit_page: true}
+  section.section
+
+    #current_anchor data-anchor="#{params[:anchor]}"
+
+    .w-container
+      .w-row
+        article
+
+          #dashboard_home.content.w-hidden
+            = render 'dashboard_home'
+
+          - if !@project.published? || (current_user && current_user.admin?)
+
+            #dashboard_basics.content.w-hidden
+              = render 'dashboard_basics'
+
+          #dashboard_project.content.w-hidden
+            = render 'dashboard_project'
+
+          - if @project.published?
+
+            #dashboard_posts.content.w-hidden
+              = render 'dashboard_posts'
+
+
+
+          /- if @project.published?
+
+            #dashboard_methods.content.w-hidden
+              = render 'dashboard_methods'   
+
+          /- if @project.published?
+
+            #dashboard_results.content.w-hidden
+              = render 'dashboard_results' 
+
+
+
+
+          #dashboard_reward.content.w-hidden 
+            = render 'dashboard_reward'
+
+          - if @project.published?
+
+            #dashboard_reports.content.w-hidden data-path=project_metrics_path(@project) data-page_title="#{t('.reports')}"
+              .results
+
+          #dashboard_user_about.content.w-hidden 
+            = render 'dashboard_user_about'
+
+          #dashboard_preview.content.w-hidden
+            = render 'dashboard_preview'
+
+          #dashboard_user_settings.content.w-hidden 
+            = render 'dashboard_user_settings'
+
+= render 'shared/footer'

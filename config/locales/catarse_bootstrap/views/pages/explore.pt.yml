@@ -1,0 +1,20 @@
+pt:
+  pages:
+    explore:
+      success_follow: "Agora você segue a categoria e vai receber semanalmente uma lista com os novos projetos"
+      success_unfollow: "Você deixou de seguir essa categoria"
+      header_html: "Explore projetos científicos &nbsp;"
+      follow: Seguir
+      unfollow: Deixar de seguir
+      following: seguidores
+      categories: Categorias
+      expiring: Últimos dias
+      in_funding: No ar
+      near: Próximos a mim
+      quick_explore: Busca rápida
+      recent: Recentes
+      recommended: Recomendados
+      subtitle: Explore as campanhas, encontre aquela ciência que te toca! Faça a ciência acontecer!
+      successful: Bem-sucedidos
+      title: Encontre campanhas incríveis
+

@@ -1,0 +1,22 @@
+pt:
+  layouts:
+    header:
+      blog: Blog
+      discover: Pesquise
+      hello: Entenda
+      faq: FAQ
+      help: Blog
+      profile: Meus dados
+      projects: Minhas campanhas
+      signin: Login
+      signup: Cadastre-se
+      submit: Lançar campanha
+      search: Buscar campanhas
+    login:
+      login_with_facebook: Entre com sua conta do Facebook
+    user:
+      my_contributions: Meus apoios
+      logout: Sair
+      my_credits: Saldo de créditos
+      refund_link: Solicitar reembolso
+

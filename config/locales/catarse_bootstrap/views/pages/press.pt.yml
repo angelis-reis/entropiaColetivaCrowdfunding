@@ -1,0 +1,38 @@
+pt:
+  pages:
+    press:
+      page-title: "Sala de imprensa"
+      hero:
+        title: "Sala de imprensa"
+      stats:
+        title: "Nossos números"
+        subtitle: "Muitos cientistas encontraram na plataforma uma poderosa ferramenta para viabilizar financeiramente seus projetos de pesquisa. Essa história pode ser contada em números."
+        people_html: "Pessoas já apoiaram pelo menos <br>1 projeto na Entropia Coletiva"
+        projects_html: "Projetos já foram <br>financiados na Entropia Coletiva"
+        money_html: "Doados para projetos <br>publicados por aqui"
+        cta_html: "Veja dados completos separados por categoria &gt;"
+      abstract:
+        title: "A Entropia Coletiva é a primeira plataforma de crowdfunding, ou financiamento coletivo de pesquisas científicas do Brasil. A Entropia Coletiva é o ponto de encontro da nova comunidade científica, dos cientistas, da população e de todos os amantes das ciências."
+      history:
+        title: "História da fundação da Entropia Coletiva"
+        subtitle: "A Entropia Coletiva foi desenvolvida por três amigos e jovens pesquisadores preocupados com a produção científica no Brasil e com o diálogo entre cientistas e população. A ideia nasceu para permitir que a população participe ativamente do processo de produção científica, apoiando financeiramente projetos e contribuindo para a ciência brasileira. 
+O objetivo da Entropia Coletiva é utilizar os conceitos da economia colaborativa para alavancar a participação popular sobre a produção científica brasileira, possibilitando assim, um modo alternativo e inovador de fazer ciência no Brasil.
+"
+
+        title2: "Como funciona a Entropia Coletiva"
+        subtitle2: "A partir de um projeto - de produção ou divulgação científica – um cientista lança na Entropia Coletiva uma campanha de arrecadação com um prazo pré-estabelecido. A campanha deverá demonstrar para a população, utilizando diferentes mídias, a importância do projeto e como ele pode impactar uma comunidade específica e a sociedade. Os apoiadores são aqueles que decidem contribuir financeiramente para o projeto, fazendo com que a campanha alcance a quantia necessária para que o projeto saia do papel. A plataforma reúne o montante arrecadado e o repassa para o cientista ao final da campanha, possibilitando o início do projeto. Em troca, o cientista presenteia os apoiadores com pequenas recompensas, que simbolizam o apoio que receberam e demonstram a gratidão pela contribuição. O compromisso do cientista/pesquisador é divulgar o desenvolvimento e avanços do seu projeto e retroalimentar todo o processo. Com isso, a cultura do financiamento coletivo voltado para ciência se intensifica, possibilitando que novas pessoas apoiem e novos projetos aconteçam."
+        title4: "Crowdfunding de ciência"
+        subtitle4: "O crowdfunding ou financiamento coletivo é um modelo de mais de 300 anos e já foi  responsável pelo financiamento de guerras, pela produção de livros e até pela construção da Estátua da Liberdade, em Nova Iorque (EUA). Com a ajuda da internet, o crowdfunding alcançou uma magnitude nunca vista antes e se expandiu por diversos países. Plataformas de crowdfunding científico são bastante populares nos EUA e Europa, movimentando milhões de dólares anualmente. No Brasil, o crowdfunding científico chega para mudar a maneira como se faz e consome ciência, estimulando ideias inovadoras, multidisciplinares e diversificadas, e criando/ampliando o diálogo entre cientistas e população."
+
+        title3: "Quem faz a entropia coletiva "
+        subtitle3: "A equipe da Entropia Coletiva é formada por Frederico Reis, CEO e programador. Frederico atuou em pesquisas em laboratórios desde os 16 anos, tendo passado por laboratórios da Fiocruz, UFF e UFRJ e por áreas como modelagem matemática, parasitologia e neurocomputação. Patricia Bado, diretora de relações públicas. Entusiasta da cultura científica, atua na área de neurociência e comportamento há 10 anos, possuindo grande interesse em divulgação científica, área que tem trabalhado intensamente nos últimos anos."
+        cta_html: "Leia a história completa &gt;"      
+      social:
+        title: "Acompanhe nossas histórias"
+        news: "Assine nossa newsletter semanal"
+      assets:
+        title: "Precisa de arquivos em alta resolução da nossa marca e selos?" 
+        cta_html: "Baixe nossas marcas &gt;" 
+      email:
+        title: "Vamos conversar?"
+        cta: "contato@entropiacoletiva.com"

@@ -1,0 +1,187 @@
+- content_for :title, t('.page-title')
+= render 'shared/header_big2', overlayer: true
+
+
+.w-lightbox-backdrop.w-hidden tabindex="0"
+  .w-lightbox-container
+    .w-lightbox-content
+      .w-lightbox-view
+        .w-lightbox-frame
+          figure.w-lightbox-figure
+            #player
+            /iframe class="" width="1280" height="720" src=""https://www.youtube.com/embed/Od4lDndTx14;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen
+        .w-lightbox-spinner
+      .w-lightbox-control.w-lightbox-close
+    .w-lightbox-strip
+
+
+.hero-hello
+
+  
+
+
+
+      
+    
+
+  .hero-content
+
+    .fontweight-semibold.u-marginbottom-20.fontsize-megajumbo = t('.hero.title')
+    .fontweight-semibold.u-marginbottom-20.fontsize-jumbo = t('.hero.subtitle')
+    a.w-lightbox.w-inline-block.btn-play href="#" 
+      = image_tag "play-hero-green.svg"
+    
+     
+
+
+/.section
+
+  .w-container
+    .w-hidden-main.w-hidden-medium.u-margintop-30
+
+    .w-row.u-text-center
+      - statistics = Statistics.first
+
+      .w-col.w-col-4.u-marginbottom-20
+        .hello-stats= number_with_delimiter(statistics.total_contributors)
+        .fontsize-small = t('.hero.people_html')
+
+      .w-col.w-col-4.u-marginbottom-20
+        .hello-stats= number_with_delimiter(statistics.total_projects_success)
+        .fontsize-small = t('.hero.projects_html')
+
+      .w-col.w-col-4.u-marginbottom-20
+        .hello-stats= number_to_human(statistics.total_contributed)
+        .fontsize-small = t('.hero.money_html')
+    .w-hidden-main.w-hidden-medium.u-marginbottom-40
+
+/.section-large.hello-idea
+
+  .w-container
+    .w-row
+      .w-col.w-col-10.w-col-push-1
+        .fontweight-semibold.fontsize-jumbo.u-marginbottom-20 = t('.fund.title')
+        .fontsize-large.u-marginbottom-40 = t('.fund.subtitle')
+        = image_tag "EC_flow.png", class: "icon-hello-lg"
+
+
+/infograph
+
+.u-text-center.section-large-flow
+  .w-container
+    .w-row.section-large_info
+      .w-col.w-col-10.w-col-push-1
+        .fontweight-semibold.fontsize-jumbo.u-marginbottom-20 = t('.fund.title')
+        .fontsize-large.u-marginbottom-40 = t('.fund.subtitle')
+        = image_tag "EC_flow.png", class: "icon-hello-lg"
+        
+    /.w-row.section-large
+      .w-col.w-col-10.w-col-push-1
+        = image_tag "icon-campanha.png", class: "icon-hello-lg"        
+        .fontweight-semibold.fontsize-jumbo.u-marginbottom-20 = t('.campaign.title')
+        .fontsize-large.u-marginbottom-40 = t('.campaign.subtitle') 
+    /.w-row.section-large
+      .w-col.w-col-10.w-col-push-1
+        = image_tag "icon-tudonada.png", class: "icon-hello-md"        
+        .fontweight-semibold.fontsize-jumbo.u-marginbottom-20 = t('.allornothing.title')
+        .fontsize-large.u-marginbottom-40 = t('.allornothing.subtitle')
+
+
+/Nosso Time
+/.u-text-center.section-large-staff
+
+  .w-container
+
+    .w-row
+      .w-col.w-col-10.w-col-push-1
+                 
+        .fontweight-semibold.fontsize-jumbo.u-marginbottom-20 = t(".success.title")
+        
+        .fontsize-large.u-marginbottom-40 = t('.success.subtitle')
+
+
+  .section
+      
+        
+        .contact
+          .avatar
+            img src="/images/avatars/fred.jpg"
+          
+          .name Frederico de Angelis  
+
+        .contact
+          .avatar
+            img src="/images/avatars/patricia.jpg"
+          
+          .name Patricia Bado  
+
+        .contact
+          .avatar
+            img src="/images/avatars/theo.jpg"
+          
+          .name Theo Marins  
+        
+          
+
+/.section-large.dark
+
+  .w-container.u-text-center
+    .fontweight-semibold.fontsize-jumbo.u-marginbottom-60 = t('.cta.title')
+    .w-row
+
+      .w-col.w-col-6.right-divider
+        .fontsize-large.lineheight-tight.u-marginbottom-30 = t('.cta.backer-cta') 
+        a.btn.btn-large.btn-inline href="#{explore_path(ref: 'hello', anchor: 'recommended')}" = t('.cta.backer-link') 
+
+      .w-col.w-col-6.u-marginbottom-30
+        .fontsize-large.lineheight-tight.u-marginbottom-30 = t('.cta.maker-cta')
+        a.btn.btn-large.btn-inline href="#{start_path(ref: 'hello')}" = t('.cta.maker-link')
+
+/.section-large.bg-humberto
+  .w-container
+    .w-row.u-marginbottom-20
+      .w-col.w-col-10.w-col-push-1
+        .fontsize-larger.u-marginbottom-40.lineheight-tight.fontcolor-negative.u-text-center-small-only = t('.testimonial.humberto.text_html')
+    .u-text-center
+      = image_tag "humberto-avatar.JPG", class: "thumb u-round u-marginbottom-10 big"        
+      .fontweight-semibold.fontsize-large.fontcolor-negative = t('.testimonial.humberto.name') 
+      .fontsize-base.fontcolor-negative = t('.testimonial.humberto.credentials')
+
+/.section-one-column.bg-gray
+  .w-container.card-big.u-margintop-30.u-marginbottom-40
+    = image_tag "icon-hello-1.png", width: "47", class: "u-marginbottom-20"
+    .fontsize-larger.u-marginbottom-40.lineheight-tighter = t('.details.fund.title')
+    .fontsize-large = t('.details.fund.text')
+  .w-container.card-big.u-marginbottom-40
+    = image_tag "icon-hello-2.png", width: "47", class: "u-marginbottom-20"
+    .fontsize-larger.u-marginbottom-40.lineheight-tighter = t('.details.allornothing.title')
+    .fontsize-large = t('.details.allornothing.text_html')
+  .w-container.card-big.u-marginbottom-40
+    = image_tag "icon-hello-3.png", width: "47", class: "u-marginbottom-20"
+    .fontsize-larger.u-marginbottom-40.lineheight-tighter = t('.details.services.title')
+    .fontsize-large = t('.details.services.text')
+  .w-container.card-big.u-marginbottom-40
+    = image_tag "icon-hello-4.png", width: "47", class: "u-marginbottom-20"
+    .fontsize-larger.u-marginbottom-40.lineheight-tighter = t('.details.fees.title')
+    .fontsize-large = t('.details.fees.text')
+  .w-container.card-big
+    = image_tag "icon-hello-5.png", width: "47", class: "u-marginbottom-20"
+    .fontsize-larger.u-marginbottom-40.lineheight-tighter = t('.details.work.title')
+    .fontsize-large = t('.details.work.text')
+
+/.section.bg-gray
+  .w-container
+    .w-row.u-marginbottom-80.u-text-center.u-margintop-30
+      .w-col.w-col-6.right-divider
+        .fontsize-large.lineheight-tight.u-marginbottom-30 = t('.cta.backer-cta')
+        a.btn.btn-large.btn-inline href="#{explore_path(ref: 'hello', anchor: 'recommended')}" = t('.cta.backer-link')
+      .w-col.w-col-6
+        .fontsize-large.lineheight-tight.u-marginbottom-30 = t('.cta.maker-cta')
+        a.btn.btn-large.btn-inline href="#{start_path(ref: 'hello')}" = t('.cta.maker-link')
+
+/.bg-people.before-footer
+  .w-container
+    .fontsize-large.u-text-center = t('.staff')
+
+
+= render 'shared/footer_big'

@@ -1,0 +1,192 @@
+pt:
+  projects:
+    edit:
+      reports: 'Relatórios'
+      user_settings: 'Dados cadastrais e bancários'
+      user_settings_subtitle: 'Com os dados abaixo completos, seu projeto estará pronto para ir ao ar. Após concluir o preenchimento, clique em Salvar. Revise. Se tudo estiver ok, basta apertar o botão Publicar e começar sua campanha!'
+      user_about: "Fale mais sobre você! Mostre que você possui capacidade para desenvolver o projeto."
+      reward: "Crie e edite aqui suas recompensas"
+      reward_subtitle: "Essa é sua demonstração de gratidão com os apoiadores. Lembre-se de incluir os custos das recompensas no seu orçamento. Prometeu, ENTREGUE! "
+      user_about_subtitle: "Apoiadores querem conhecer melhor os realizadores de projetos. Links que ajudam a contar sua história são sempre bem vindos. "
+    reward_fields:
+
+      edit: "Editar recompensa"
+      reward: Recompensa
+      info_box: "Descreva o valor da recompensa (mínimo de R$25,00) e coloque uma previsão de data de entrega real para os apoiadores. Você também pode limitar uma recompensa e quando o limite é atingido ela aparece como ESGOTADA. Se quiser mudar a ordem que as recompensas aparecem em seu projeto, basta fazer isso arrastando-as para cima ou para baixo."
+      minimum_value: "Valor:"
+      deliver_at: "Previsão de entrega:"
+      description: "Descrição:"
+      limit_reward: "Limitar recompensa"
+      available: "Quantidade disponível"
+      submit: "Salvar"
+      index:
+        select_reward: "Selecione essa recompensa"
+        display_remaining: "%{remaining} de %{maximum} disponíveis"
+        dont_want: "Não quero recompensa"
+        limited: Limitada
+        sold_out: Esgotada
+        contributions_to_confirm:
+          one: 1 apoio em prazo de confirmação.
+          other: "%{count} apoios em prazo de confirmação."
+        edit_reward: Editar recompensa
+        new_reward: Cadastrar recompensa
+        reward_deliver_time: "<b>Estimativa de Entrega:</b> %{estimate}"
+        reward_title: Para %{minimum} ou mais
+    dashboard_user_settings:
+       natural: "Nome completo do titular"
+       juridical: "Razão Social do titular"
+       title: "Dados cadastrais e bancários"
+       subtitle_html: "Com os dados abaixo completos, seu projeto estará pronto para ir ao ar. Após concluir o preenchimento, clique em Salvar. Revise. Se tudo estiver ok, basta apertar o botão Publicar e começar sua campanha!"
+       owner_document_natural: "CPF do titular da conta bancária"
+       owner_document_juridical: "CNPJ do titular da conta bancária"
+       user_data_title: "Dados bancários"
+       user_data_subtitle_html: "Esses dados serão usados para a emissão de nossa Nota Fiscal e para o repasse do dinheiro."
+       account_subtitle_html: "Precisamos dos dados abaixo para efetuar a transferência financeira. <b>ATENÇÃO: O CPF/CNPJ listado nos dados cadastrais e dados bancários precisa ser o mesmo.</b>"
+       account_edit_disabled_html: "Os dados abaixo foram informados por você no momento da publicação de seu projeto. Para evitar erros no repasse de recursos, a edição destes dados foi bloqueada assim que seu projeto entrou no ar. Caso você queira alterá-los, é só %{link} informando as mudanças que deseja fazer."
+       submit: "Salvar"
+    dashboard_home_templates:
+      status: "Status:"
+      project_numbers:
+        financed: financiado
+        backed: levantados
+        contributions: apoios
+        left: restantes
+      waiting_funds:
+        title: "%{name}, estamos processando os últimos pagamentos."
+        subtitle_html: "Seu projeto foi finalizado em %{expires} e está aguardando confirmação de boletos e pagamentos. Devido à data de vencimento de boletos, projetos que tiveram apoios de última hora ficam por até 4 dias úteis nesse status, contados a partir da data de finalização do projeto. %{link}."
+        header: "A partir daqui o seu projeto pode bater a meta ou não. Veja o que acontece em cada um dos casos:"
+        success: "Bati a meta:"
+        failed: "Não bati a meta:"
+        good_luck: "Boa sorte!"
+      successful:
+        title: "%{name}, comemore que você merece!"
+        subtitle_html: "Seu projeto foi bem sucedido e agora é a hora de iniciar o trabalho de relacionamento com seus apoiadores! Atenção especial à entrega de recompensas. Prometeu? Entregue! Não deixe de olhar a seção de pós-projeto do %{link1} e de informar-se sobre %{link2}. "
+        header1: "E não se esqueça: transparência é tudo."
+        transparent_html: "Manter um apoiador informado é manter um apoiador feliz. Mesmo que você vá informá-lo de uma falha ou contratempo no desenvolvimento de sua pesquisa. Apoiadores felizes são %{link} . Portanto, use e abuse da aba Diário do Laboratório. Use este espaço para fazer divulgação científica. O que você escrever por lá chega direto na caixa de emails dos seus apoiadores. Já vai começar a entrega de recompensas? Na aba \"relatórios\" você baixa informações para que você possa fazer a gestão de entrega de recompensas do seu projeto."
+        header2: "Não deixe de ler:"
+      rejected:
+        title: "%{name}, infelizmente não foi dessa vez."
+        subtitle_html: "Você enviou seu projeto para análise da Entropia Coletiva e entendemos que ele não está de acordo com o perfil do site. Ter um projeto recusado não impede que você envie novos projetos para avaliação ou reformule seu projeto atual. Converse com nosso atendimento! Recomendamos que você dê uma boa olhada nos %{link1}  e no %{link2}."
+      online:
+        title: "%{name}, sua campanha está no ar!"
+        subtitle_html: "Seu projeto está no ar e sua campanha se encerrará às 23hs59min59s do dia %{date}. Até esse dia e horário você poderá receber apoios. Tendo alguma dúvida, não exite em entrar em contato com o atendimento online (botão no canto direito da página) ou enviar um e-mail para contato@entropiacoletiva.com"
+        explanation_html: "
+<div class='fontsize-base u-marginbottom-40 card card-terciary'>
+                      <p class='fontweight-bold'>
+                        Com o projeto no ar, algumas informações não podem mais ser editadas
+                      </p>
+                      <p>
+                        Você não poderá mais alterar:<br> - a sua meta de captação;<br> - o prazo final;<br> - a URL do projeto;<br> - o usuário dono do projeto.
+                      </p>
+                      <p class='fontweight-bold'>
+                        Precisa de mais informações sobre processos de campanha? Veja o box ao lado.
+                      </p>
+                      <p>
+                        
+                      </p>
+                    </div>
+"
+      failed:
+        title: "%{name}, não desanime!"
+        subtitle_html: "Seu projeto não bateu a meta e sabemos que isso não é a melhor das sensações. Mas não desanime. Encare o processo como um aprendizado. Não se preocupe, todo o valor arrecadado, descontado a taxa da Entropia Coletiva, será transferido para sua conta. %{link}."
+        questions: "."
+      draft:
+        title: "%{name}, chegou a hora de postar seu projeto na Entropia Coletiva!"
+        subtitle: "Quanto mais cuidadoso e bem formatado for um projeto, maiores as chances de ele ser bem sucedido na sua campanha de captação. Antes de enviar seu projeto para a nossa análise, preencha todas as abas à esquerda com atenção. Você pode salvar as alterações e voltar ao rascunho do projeto quantas vezes for necessário. Quando tudo estiver pronto, clique no botão ENVIAR. Vamos avaliar seu projeto e entrar em contato o mais rápido possível."
+        study_title: ""
+      approved:
+        title: "%{name}, seu projeto foi aprovado!"
+        subtitle_html: "Para colocar o seu projeto no ar é preciso apenas que você preencha os dados necessários na aba %{link1}. É importante saber que cobramos a taxa de 18% do valor total arrecadado. Sendo em torno de 5% para pagar a operadora de cartões de crédito e 13% para remunerar a plataforma."
+      in_analysis:
+        title: "%{name}, você enviou seu projeto para análise e receberá nossa resposta em até 4 dias úteis"
+        subtitle_html: "Muito obrigado! Nossa equipe vai avaliar todo o conteúdo do seu projeto e em até 4 dias úteis você receberá um email informando se ele foi Aprovado, Recusado ou se vai continuar Em Análise por mais algum tempo para que você possa realizar os ajustes sugeridos. Aproveite esse período para coletar feedbacks com pessoas próximas!"
+    dashboard_nav:
+      leave_link_html: "&nbsp; Sair do painel de controle"
+      start_tab: Informações
+      basics_tab: Valores e Prazos
+      project_tab: Editar projeto
+      posts_tab: Diário do Laboratório
+      rewards_tab: Recompensas
+      about_you_tab: Sobre você
+      reports_tab: Relatórios
+      account_tab: Conta bancária
+      preview_tab: Preview
+      send: Enviar
+      publish: Publicar
+    dashboard_user_about:
+
+      about: "Se apresente aos seus apoiadores."
+      about_subtitle: "Mostre que você possui capacidade técnica para desenvolver sua pesquisa. Os apoiadores querem conhecer melhor os realizadores das campanhas, utilize links que ajudem a contar sua história."
+      submit: "Salvar"
+      twitter_label: "Perfil do twitter"
+      twitter_hint: "Cole o link do seu perfil"
+      other_link_label: "Presença na internet"
+      other_link_hint: "Inclua links que ajudem os apoiadores a entender porque você é a pessoa certa para fazer esse projeto. "
+      about_label: "Sobre você"
+      about_hint: "Utilize esse espaço para descrever melhor você, sua empresa ou sua instituição. Quer dar crédito a parceiros? Utilizar algum vídeo institucional? Esse espaço é seu e utilize-o da forma que quiser.  Todas essas informações vão aparecer na Aba Sobre em seu Perfil Público."
+      facebook_link_label: "Perfil do facebook"
+      facebook_link_hint: "Cole o link do seu perfil"
+      uploaded_image_label: "Imagem do perfil"
+      uploaded_image_hint: "Essa imagem será utilizada como a miniatura de seu perfil (PNG, JPG tamanho ideal 280 x 280)"
+      name_label: "Nome"
+      name_hint: "Esse é o nome que os usuários irão ver no seu perfil."
+      email_label: Email
+      email_hint: Email para você se comunicar com a equipe da Entropia Coletiva e com os seus apoiadores
+    dashboard_reward:
+      reward2: "Crie e edite aqui suas recompensas"
+      reward2_subtitle: "Essa é sua demonstração de gratidão com os apoiadores. Lembre-se de incluir os custos das recompensas no seu orçamento. Prometeu, ENTREGUE! O valor mínimo de apoios na Entropia Coletiva é de R$25,00. Não adicione recompensas para apoios menores do que este valor. "
+      
+      submit: "Salvar"
+      add_reward: "Adicionar recompensa"
+      reward: "Recompensa"
+    dashboard_preview:
+      header_subtitle: "É hora dos feedbacks!"
+      header_text: "Compartilhe o link abaixo com amigos, colegas e colaboradores. Aproveite este momento de pré campanha para os ajustes finos que ajudem na sua campanha."
+    dashboard_posts:
+      title: "Escrever um post no Diário do Laboratório"
+      only_to_backers: "Quero que essa postagem seja visível apenas para apoiadores."
+      publish: 'Publicar postagem'
+      discard: 'Descartar'
+      warning: "Toda postagem publicada no Diário do Laboratório é enviada diretamente aos seus apoiadores por email. Revise bem o post antes de publicar."
+      old_posts: "Postagens antigas"
+    dashboard_project:
+      budgets_hint_html: "Informe uma lista com os principais itens do orçamento. Não precisa entrar em detalhes minuciosos, basta uma visão geral. Seus apoiadores gostarão de saber como o dinheiro deles será usado na sua pesquisa. Não existe uma regra quanto a quantidade de itens na lista, mas normalmente 5 costuma ser um bom número!"
+      budget_hint_html: "Como o seu dinheiro será utilizado? Quanto mais transparência melhor. Mostre que etapas e processos estarão envolvidos no uso desses recursos. Uma lista com os principais itens do orçamento ou até mesmo um gráfico de pizza vão super bem aqui."
+      budget_label: "Orçamento do projeto"
+      budgets_label: "Detalhe do orçamento"
+      abstract_label: "Resumo do projeto"
+      abstract_hint_html: "A primeira parte do texto deve ser dedicada a um breve resumo do projeto, explicando de forma concisa o se propõe a desenvolver, e sua importância. O leitor deve ter a capacidade de ler o resumo e poder explicar a um amigo sobre o que se trata o projeto. Seja específico sobre o que pretende alcançar e qual a hipótese científica que será testada. Cuidado para não cansar o leitor logo de início, tente deixá-lo curioso para ler o restante do texto."
+      start: "Conte a história do seu projeto!"
+      start_subtitle: "Pense bem na narrativa do projeto. É ela que encantará as pessoas e trará apoiadores. Um bom video e descrição são diferenciais de projetos financiados!"
+      video_url: "Vídeo do projeto"
+      video_url_hint: "Importante: todos os projetos devem ser enviados com um vídeo. Use o formato https://www.youtube.com/watch?v=Od4lDndTx14  "
+      video_url_subtitle: "Link do vídeo no Youtube"
+      abstract: "Resumo do projeto"
+      about: "Descrição do projeto"
+      links_title: "Links úteis"
+      about_hint_html: 'Fale com paixão e clareza sobre o que será realizado. Esclareça possíveis dúvidas sobre como o dinheiro será utilizado, quem está por trás do projeto, como e quando o projeto será desenvolvido. Lembre-se que boa parcela do público alvo é de leigos sobre ciência, evite termos técnicos. Transparência atrai mais apoiadores. Lembre-se: seu projeto será acessado por pessoas comuns que decidirão se querem ou nãofinanciar sua pesquisa. Capriche! '
+      card: 'Card do projeto'
+      card_subtitle: 'Sabe aquele cardzinho de projeto que aparece na home e na busca? Então, faz bonito aqui nessa parte pois dizem que a primeira impressão é a que fica!'
+      image: 'Imagem do projeto'
+      image_hint: 'Essa imagem será utilizada como a miniatura de seu projeto (PNG, JPG tamanho 600 x 340)'
+      headline: 'Chamada do Projeto'
+      headline_hint: 'Será utilizada no card do projeto, junto com a imagem acima (miniatura). No máximo 100 caracteres.'
+      submit: 'Salvar'
+    dashboard_basics:
+      project_start: 'Preencha as informações abaixo'
+      project_start_subtitle: 'Os dados informados nessa seção não poderão ser modificados quando o projeto for ao ar. Preencha com atenção e revise antes de lançar o projeto. '
+      online_date: 'Data de entrada no ar'
+      user_id: 'Id do usuário'
+      name: 'Nome do projeto'
+      name_label: 'Quanto mais direto melhor. Não ultrapasse 100 caracteres'
+      url: 'URL do projeto'
+      url_label: 'É o endereço do seu projeto, deve ser fácil de memorizar. Evite underline, hífen e símbolos'
+      category: 'Categoria'
+      category_label: 'Explore e se inspire em outros projetos da mesma categoria que o seu.'
+      online_days: 'Prazo para arrecadação'
+      online_days_label: 'Você pode escolher entre 1 e 60 dias para a sua campanha.'
+      value: 'Valor a ser arrecadado'
+      value_secondary: 'Planeje uma meta coerente com o que seu projeto propõe. Revise seu orçamento e não esqueça de incluir a taxa cobrada pela Entropia Coletiva.'
+      form:
+        submit: 'Salvar'
+

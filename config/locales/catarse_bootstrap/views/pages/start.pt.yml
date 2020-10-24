@@ -1,0 +1,31 @@
+pt:
+  pages:
+    start:
+      page-title: "Lançar campanha"
+      title: "Financie sua campanha científico coletivamente"
+      submit: "Lançar campanha"
+      learn-more: "Entenda"
+      header:
+        people: "Pessoas já apoiaram pelo menos 01 campanha na Entropia Coletiva"
+        success: "campanhas já foram financiados na Entropia Coletiva"
+        money: "Doados para campanhas publicados por aqui"
+      start:
+        title: "O que é crowdfunding?"
+        content: "Crowdfunding ou financiamento coletivo é um modelo de apoio financeiro a projetos em que um grande número de apoiadores contribuem com baixas quantias, viabilizando a execução e o sucesso da campanha. Na ciência, o crowdfunding surge como uma alternativa às formas clássicas de financiamento, as quais além de não existirem em quantidade suficiente, privilegiam pesquisadores sêniores e projetos de baixo risco. A Entropia Coletiva torna este sistema mais inclusivo e democrático.  Aqui, quem decide se um projeto de pesquisa deve ou não sair do papel é a população. Cabe aos cientistas ampliarem o diálogo com o público e mostrarem a relevância da sua ideia, atraindo assim uma grande quantia através de pequenas doações para financiar sua pesquisa."
+        link: "Saiba mais sobre os primeiros passos de uma campanha"
+      people:
+        title: "Sua ideia de pesquisa"
+        content: "A Entropia Coletiva apresenta uma nova maneira de se viabilizar, produzir e consumir ciência. Portanto, se você entende a importância de divulgar sua ciência para a população e está disposto a a interagir com quem se interessa por essa ciência, seu lugar é na Entropia Coletiva. Seu projeto envolve (i) produzir uma pesquisa científica propriamente dita ou (ii) difundir o conhecimento científico? Venha lançar sua campanha!"
+        link: 'Saiba quantos apoiadores você precisará mobilizar'
+      time:
+        title: "Comunique e divulgue sua ciência!"
+        content: "Comunique-se bem antes, durante e depois de sua campanha. Esteja disponível e seja paciente com seus apoiadores! Eles são a força do sua campanha e são quem realmente vai determinar o sucesso ou não da campanha! A Entropia Coletiva é uma nova forma de você se aproximar das pessoas que gostam de ciência, expandir sua rede fora da academia e formar um público para sua pesquisa."
+        link: 'Saiba como nossa taxa ajuda a manter a Entropia Coletiva'
+      work:
+        title: "Campanha Flexível"
+        content: "Quem define a meta de arrecadação e o tempo de campanha é você. Defina um prazo entre 15 e 90 dias para realizar sua campanha. Todo o valor arrecadado ao final da campanha, subtraindo a taxa de administração da Entropia Coletiva, será entregue ao proponente independente da meta estipulada ser alcançada. Cobramos uma taxa administrativa de 18% do valor total areecadado na campanha, independente de alcançar ou não a meta. Deste valor, em torno de 5% remunera a operadora de cartões de crédito e 13% são usados para manter a plataforma."
+        link: 'Receba dicas de campanhas de sucesso na Entropia Coletiva'
+      launch:
+        title: "Lançando sua campanha"
+        content: "Lançar uma campanha tem seus desafios e diferentes etapas, que exigem planejamento e dedicação. O maior deles é fazer com que as pessoas percebam o quanto a sua ideia é importante. Nós temos algumas dicas para que você não se esqueça de nenhum detalhe. O GUIA DOS PESQUISADORES possui um passo a passo de como criar sua própria campanha. A Entropia Coletiva oferece uma interface simples e intuitiva para que você crie seu projeto sem dificuldades. Para começar a criar seu projeto, clique no botão LANÇAR CAMPANHA!"
+        link: 'Receba dicas de campanhas de sucesso na Entropia Coletiva'        

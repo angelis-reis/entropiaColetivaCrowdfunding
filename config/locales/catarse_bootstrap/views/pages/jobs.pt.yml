@@ -1,0 +1,74 @@
+pt:
+  pages:
+    jobs:
+      page-title: "Perguntas Frequentes"
+      hero:
+        title: "Perguntas Frequentes"
+      stats:
+        title: "Nossos números"
+        subtitle: "Muitos cientistas encontraram na plataforma uma poderosa ferramenta para viabilizar financeiramente seus projetos de pesquisa. Essa história pode ser contada em números."
+        people_html: "Pessoas já apoiaram pelo menos <br>1 projeto na Entropia Coletiva"
+        projects_html: "Projetos já foram <br>financiados na Entropia Coletiva"
+        money_html: "Doados para projetos <br>publicados por aqui"
+        cta_html: "Veja dados completos separados por categoria &gt;"
+      
+
+
+      abstract:
+        title: "A Entropia Coletiva é a primeira plataforma de crowdfunding, ou financiamento coletivo de pesquisas científicas do Brasil. A Entropia Coletiva é o ponto de encontro da nova comunidade científica, dos cientistas, da população e de todos os amantes das ciências."
+      history:
+        
+        title: "O que é a Entropia Coletiva?"
+        subtitle: "A Entropia Coletiva é a primeira plataforma de crowdfunding (financiamento coletivo) de Ciência do Brasil. Somos uma comunidade formada pela missão de financiar e divulgar uma ciência aberta e colaborativa. Cientistas e a população unidos pelo desenvolvimento científico."
+
+        title2: "O que acontece se a meta financeira definida ao início da campanha não for alcançada?"
+        subtitle2: "No desenvolvimento de projetos científicos as verbas usadas no financiamento costumam vir de diversas fontes, incluindo crowdfunding, financiamento pelas agências de fomento como CNPq e CAPES, e o financiamento direto pelas instituições de pesquisa as quais o pesquisador é vinculado. Por isso, mesmo que a campanha não alcance a meta, o valor arrecadado é usado para iniciar o projeto de pesquisa enquanto o pesquisador busca outras formas complementares de financiamento. A Entropia Coletiva funciona de modo flexível, assim o valor total arrecadado durante a campanha é repassado ao cientista independentemente da campanha alcançar."
+        
+        title3: "Quem pode financiar projetos na Entropia Coletiva?"
+        subtitle3: "Todos! Esta é uma das belezas da internet. Qualquer pessoa em qualquer lugar do mundo pode financiar e fazer parte do desenvolvimento da ciência! Vamos trazer a ciência à vida!"
+
+        title4: "Qual recompensa recebo por financiar a ciência?"
+        subtitle4: "Os cientistas que lançam campanhas na Entropia Coletiva comprometem-se a divulgar o desenvolvimento e os resultados de sua pesquisa, assim como interagir com apoiadores. Certas campanhas oferecem outras recompensas, como canecas do laboratório, quadros com imagens de microscopia de suas pesquisas, livros, entre outras."
+        cta_html: "."  
+
+        title5: "Qualquer projeto pode ser lançado? Alguém checa o mérito científico dos projetos?"
+        subtitle5: "A equipe da Entropia Coletiva é formada por cientistas com experiência em diversas áreas do conhecimento. Todos os projetos são revisados e aprovados por nossa equipe antes de serem lançados. Apenas projetos com mérito científico e proponentes que tenham capacidade técnica e acesso a estrutura para desenvolver a pesquisa são aprovadas para publicação. Na Entropia Coletiva só entra ciência de verdade :)"
+
+        title6: "Qual o custo para lançar uma campanha?"
+        subtitle6: "O lançamento de uma campanha na Entropia Coletiva não tem custo. Uma taxa de 18% do valor total arrecadado por cada projeto é cobrada para pagar o operador de cartões de crédito iugu.com e para manter a plataforma."
+        
+        title7: "A Entropia Coletiva é uma instituição com ou sem fins lucrativos?"
+        subtitle7: "A Entropia Coletiva é uma empresa com fins lucrativos e direcionada por sua missão de desenvolver uma ciência mais aberta e colaborativa no Brasil. "
+
+        title8: "Tenho como conseguir alguns adesivos da Entropia Coletiva?"
+        subtitle8: "Claro, envie um e-mail para contato@entropiacoletiva.com com seu endereço que enviaremos!"
+
+        title9: "Quais são os critérios de avaliação de novos projetos?"
+        subtitle9: "Avaliamos se o projeto tem mérito científico e se o proponente tem capacidade técnica e acesso a estrutura física para desenvolver a pesquisa proposta."
+
+        title10: "O que é o selo de Acesso Aberto?"
+        subtitle10: "O selo de Acesso Aberto mostra que o cientista se compromete a liberar os resultados de sua pesquisa de maneira acessível a todos. Seja via publicações no diário do laboratório do projeto ou em um artigo científico publicado em uma revista de acesso aberto, encorajamos todos os pesquisadores a fazerem isso. A ciência pertence e deve ser acessível a todos!"
+        
+        title11: "Quanta informação técnica tenho que divulgar sobre meu projeto de pesquisa?"
+        subtitle11: "Nós encorajamos a transparência e o acesso aberto como uma maneira de apoiadores entenderem o impacto da sua pesquisa, mas existem outras maneiras de se fazer isso sem entregar os segredos de sua pesquisa ainda não publicada. Crowdfundings de projetos científicos funcionam por causa da narrativa que o cientista usa para explicar sua pesquisa. É isso que atrai a curiosidade de apoiadores, e acompanhar o desenvolvimento desta narrativa é a principal recompensa recebida pelos apoiadores. Muitos projetos não podem divulgar resultados e informações sensíveis mas conseguem ainda contar uma grande história com sua pesquisa. Uma de nossas principais políticas é que cientistas decidem quais informações e resultados serão divulgados. É você quem decide o que será divulgado. Podemos também pensar que apoiadores não se importam tanto com os dados técnicos. De fato, apoiadores querem o que for melhor para que o projeto que agora fazem parte tenha o melhor resultado e o maior impacto possíveis. Existem várias outras formas de divulgar o andamento de sua pesquisa, como explicar as técnicas usadas, o cotidiano do laboratório, resultados representativos, não identificados e mesmo negativos. Como sempre, nosso conselho é que seja feito o que for melhor para sua ciência, afinal este também é o objetivo de quem apoia seu projeto."
+
+        title12: "Posso lançar um projeto que será desenvolvido fora do Brasil?"
+        subtitle12: "O objetivo da Entropia Coletiva é estimular o avanço da ciência, não importando por quem ela é desenvolvida e nem onde. Se você vai desenvolver sua pesquisa fora do Brasil mas está disposto a convidar a população a fazer parte de sua pesquisa, a Entropia Coletiva também é para você. Nosso meio de pagamento aceita doações de cartões de crédito internacionais de qualquer lugar do mundo."        
+             
+      
+        title13: "As doações são dedutíveis do imposto de renda?"
+        subtitle13: "Não, ainda não existe no Brasil legislação que deduza doações para projetos científicos como existe com doações para projetos culturais pela Lei Rouanet."    
+
+        title14: "Posso pedir reembolso após fazer uma doação?"
+        subtitle14: "Não, as doações efetuadas e processadas pelo meio de pagamento não são reembolsáveis."    
+
+        title15: "O que é o serviço de CONSULTORIA/ASSESSORIA DE CAMPANHA?"
+        subtitle15: "Ao selecionar esse serviço, o CRIADOR da campanha irá contatar com um apoio personalizado de toda a equipe da Entropia Coletiva em todas as etapas de sua campanha de crowdfunding. Vamos trabalhar juntos ao CRIADOR na formulação dos textos, imagens, vídeos, campanha de marketing digital, procura de empresas parceiras para apoiar a campanha e divulgação de press releases para jornalistas de diversos meios de comunicação sobre a campanha. 
+Apoiaremos o proponente também após o fim da campanha, na comunicação com os apoiadores e nas soluções estratégicas de logística, referente a entrega das recompensas.
+Esse serviço tem uma taxa de 5%, totalizando uma taxa de 18% do valor arrecadado para remuneração da Entropia Coletiva e para o pagamento das taxas da operadora de cartões de crédito e boleto bancário."    
+
+        title16: "Como consigo contatar a equipe da Entropia Coletiva?"
+        subtitle16: "Nós adoramos conversar com cientistas e apoiadores. Se tiver alguma sugestão, dúvida ou só quiser bater papo, não hesite em falar conosco. No canto inferior direito da página tem um botão de chat, estamos sempre disponíveis. Se preferir, envie um e-mail para contato@entropiacoletiva.com."    
+            
+        title17: "Segurança dos dados bancários"
+        subtitle17: "Nós levamos a segurança dos dados de nossos clientes muito a sério. Na Entropia Coletiva todas as informações financeiras como números de cartões de crédito não são armazenadas, são inseridas diretamente no sistema do meio de pagamento IUGU.COM que trabalha com criptografia dos dados e tokens triplos. Nosso sistema também usa um certificado de segurança SSL que criptografa todas as informações enviadas e recebidas pelo navegador da internet. Se você quiser avisar nossa equipe sobre qualquer falha de segurança identificada, por favor, envie um e-mail para contato@entropiacoletiva.com. Serão muito bem recompensados com camisetas e adesivos :)"    

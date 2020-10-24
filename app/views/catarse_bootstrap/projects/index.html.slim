@@ -1,0 +1,264 @@
+- content_for :title, t('site.title')
+= render 'shared/header_big', overlayer: true
+
+
+
+section#hero-home.hero-full.hero-knowmore
+
+
+  .margin-slogan-home
+  
+    .fontweight-semibold.u-marginbottom-20.u-marginleft-t.fontsize-jumbo = t('.page_title')
+    .fontweight-semibold.u-marginbottom-20.u-marginleft-t.fontsize-jumbo = t('.page_subtitle')
+
+  .w-container.u-text-left.margin-btn-home
+    /.hero-home-words-content
+      .fontsize-megajumbo.u-marginbottom-60.fontweight-semibold
+        .w-embed
+          .cd-headline.letters.type
+            span = t('.banner_before')              
+            span.cd-words-wrapper
+              - t('.banner_words').each do |index, word|
+                - if index == 0 
+                  b.is-visible = word
+                - else
+                  b = word
+            span = t('.banner_after')
+
+
+
+    w-row
+      
+      /.w-col.w-col-4
+      .w-col.w-col-4
+        a.btn.btn-large.u-marginleft-10.u-marginbottom-btn href="#{explore_path(ref:'home_banner')}" Pesquise projetos
+      
+      .w-col.w-col-4
+
+section#projects
+
+
+  - if current_user && @projects_near.present?
+
+
+  article.section-recom.w-container
+ 
+    .w-row.u-marginbottom-30
+    
+      .w-col.w-col-10.w-col-small-6.w-col-tiny-6
+        .fontsize-large.lineheight-looser
+          = t('.recommended')
+
+      .w-col.w-col-2.w-col-small-6.w-col-tiny-6
+        = link_to t('.see_all'), explore_path(ref: :home_recommended, anchor: :recommended), class: 'btn btn-small btn-terciary'
+
+    .w-row
+      == render_projects @recommends, 'home_recommended', { wrapper_class: 'w-col w-col-4' }
+      /recomendados
+
+
+  /article.section.u-marginbottom-40
+
+      .w-container
+        .w-row.u-marginbottom-30
+          .w-col.w-col-10.w-col-small-6.w-col-tiny-6
+            .fontsize-large.lineheight-looser
+              = t('.near_you')
+          .w-col.w-col-2.w-col-small-6.w-col-tiny-6
+            = link_to t('.see_all'), explore_path(ref: 'home_near', anchor: "near_of/" ) + current_user.address_state, class: 'btn btn-small btn-terciary'
+        .w-row
+          == render_projects @projects_near, 'home_near', { wrapper_class: 'w-col w-col-4' }
+          /próximos
+
+
+  /article.section.w-container
+  
+    .w-row.u-marginbottom-30
+      .w-col.w-col-10.w-col-small-6.w-col-tiny-6
+        .fontsize-large.lineheight-looser
+          = t('.expiring')
+      .w-col.w-col-2.w-col-small-6.w-col-tiny-6
+        = link_to t('.see_all'), explore_path(ref: :home_expiring, anchor: :expiring), class: 'btn btn-small btn-terciary'
+    .w-row
+      == render_projects @expiring, 'home_expiring', { wrapper_class: 'w-col w-col-4' }
+      / na reta final
+      / recolocar seção quando tiver projetos chegando no fim do
+      /prazo
+
+  /article.section.recent-projects.w-container
+ 
+
+    .w-row.u-marginbottom-30
+      .w-col.w-col-10.w-col-small-6.w-col-tiny-6
+        .fontsize-large.lineheight-looser
+          = t('.recents')
+      .w-col.w-col-2.w-col-small-6.w-col-tiny-6
+        = link_to t('.see_all'), explore_path(ref: :home_recent, anchor: :recent), class: 'btn btn-small btn-terciary'
+    .w-row
+      == render_projects @recent, 'home_recent', { wrapper_class: 'w-col w-col-4' }
+       /recentes
+
+
+  
+
+
+
+/.lab_notes
+
+
+  article.section-lab-note.w-container.bg_color
+ 
+    .w-row.u-marginbottom-30.bg_color
+    
+      .w-col.w-col-10.w-col-small-6.w-col-tiny-6.bg_color
+        .fontsize-large.lineheight-looser.bg_color
+          = t('.lab_note')
+          
+
+      .w-col.w-col-10.w-col-small-6.w-col-tiny-6.bg_color
+        .fontsize-small.lineheight-looser.bg_color
+          = t('.lab_note_subtitle')
+
+      /.w-col.w-col-2.w-col-small-6.w-col-tiny-6
+        = link_to t('.see_all'), explore_path(ref: :home_recommended, anchor: :recommended), class: 'btn btn-small btn-terciary'
+
+    .w-row.bg_color
+      == render_project_posts @recent, { wrapper_class: 'w-col w-col-4' }
+
+
+
+/</section>
+    <section class="content partnerships text-left">
+      <p style="font-size:29px">Instituições.</p>
+      <p style="font-size:24px">Instituições com campanhas na Entropia Coletiva</p>
+      
+
+
+      <a class="partnership" href="http://www.faperj.br/" target="_blank">
+        <img src="/images/apoios/faperj.png" />
+      </a>
+
+      <a class="partnership" href="http://www.startuprio.rj.gov.br/" target="_blank">
+        <img src="/images/apoios/startup_rio.png" />
+      </a>
+
+      <a class="partnership" href="https://www.iniciativajovem.org.br/?fromLivewire" target="_blank">
+        <img src="/images/apoios/shell.png" />
+      </a>   
+
+
+
+
+
+    </section>
+
+
+
+.intitutions
+
+
+  article.section-institution.w-container
+ 
+    .w-row.u-marginbottom-30
+    
+      .w-col.w-col-10.w-col-small-6.w-col-tiny-6
+        .fontsize-large.lineheight-looser
+          = t('.institutions')
+          
+
+      .w-col.w-col-10.w-col-small-6.w-col-tiny-6
+        .fontsize-small.lineheight-looser
+          = t('.institutions_subtitle')
+
+      /.w-col.w-col-2.w-col-small-6.w-col-tiny-6
+        = link_to t('.see_all'), explore_path(ref: :home_recommended, anchor: :recommended), class: 'btn btn-small btn-terciary'
+
+    .w-row
+    .u-marginbottom-20
+    .u-margintop-200
+    
+            
+      
+       
+      <a class="center1" href="http://www.ufrj.br/" target="_blank">
+        <img src="/images/institutions/ufrj.jpg" />
+      </a>
+
+      <a class="center2" href="http://www.uerj.br/" target="_blank">
+        <img src="/images/institutions/uerj.jpg" />
+      </a>
+
+      <a class="center3" href="http://www.ehu.eus/en/en-home" target="_blank">
+        <img src="/images/institutions/vasco.jpg" />
+      </a>   
+
+      /institutions
+
+    
+
+
+.intitutions
+
+
+  article.section-institution.w-container
+ 
+    .w-row.u-marginbottom-30
+    
+      .w-col.w-col-10.w-col-small-6.w-col-tiny-6
+        .fontsize-large.lineheight-looser
+          = t('.Falam por aí')
+          
+
+      //.w-col.w-col-10.w-col-small-6.w-col-tiny-6
+        .fontsize-small.lineheight-looser
+          = t('.noticias_subtitle')
+
+      /.w-col.w-col-2.w-col-small-6.w-col-tiny-6
+        = link_to t('.see_all'), explore_path(ref: :home_recommended, anchor: :recommended), class: 'btn btn-small btn-terciary'
+
+    .w-row
+    .u-marginbottom-20
+    .u-margintop-200
+    
+            
+      
+       
+      <a class="center1" href="https://revistacult.uol.com.br/home/entropia-coletiva-crowdfunding-cientifico/" target="_blank">
+        <img src="/images/noticias/cult.png" />
+      </a>
+
+      <a class="center2" href="http://revistapesquisa.fapesp.br/2017/12/28/apoio-multiplicado/" target="_blank">
+        <img src="/images/noticias/fapesp.png" />
+      </a>
+
+     
+
+     
+
+      /institutions
+
+    
+
+    
+= render 'shared/footer_big'
+
+
+</section>
+    <section class="content partnerships text-center">
+      <h2>Apoios</h2>
+      <a class="partnership" href="http://www.faperj.br/" target="_blank">
+        <img src="/images/apoios/faperj.png" />
+      </a>
+      <a class="partnership" href="http://www.startuprio.rj.gov.br/" target="_blank">
+        <img src="/images/apoios/startup_rio.png" />
+      </a>
+      <a class="partnership" href="https://www.iniciativajovem.org.br/?fromLivewire" target="_blank">
+        <img src="/images/apoios/shell.png" />
+      </a>      
+    </section>
+
+      
+
+
+= render 'shared/addthis'
+

@@ -1,0 +1,17 @@
+pt:
+  shared:
+    feedback:
+      button: 'Dar um feedback'
+      inputs:
+        submit: 'Enviar feedback'
+        close: 'Fechar'
+      placeholders:
+        email: 'Email'
+        text: 'Escreva seu feedback'
+      texts:
+        title: "Nos diga sua opinião! Ela é muito importante para nós."
+        content: "Estamos trabalhando arduamente para conectar cientistas e população. Adoraríamos saber sua opnião sobre nossa plataforma. <br> Pode falar, estamos escutando."
+        response:
+          title: "<br>, muito obrigado ;)"
+          content: "A sua opinião é muito importante para que possamos juntos seguir construindo este ambiente. Vamos juntos fazendo a ciência acontecer."
+

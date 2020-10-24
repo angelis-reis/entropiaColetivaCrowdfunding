@@ -1,0 +1,104 @@
+pt:
+  projects:
+    about_mobile:
+      by: 'por'
+      back: '< Voltar'
+    project_embed:
+      insert: 'Insira um widget em seu site'
+    mobile_video:
+      read_more: "Leia mais"
+    metrics:
+      titles:
+        confirmed_by_day: 'Total de apoios confirmados por dia'
+        confirmed_amount_by_day: 'Total arrecadado por dia'
+        address_state: 'Total de apoios confirmados por Estado'
+    reminder:
+      ok: 'Ok! Vamos te enviar um lembrete por e-mail 48 horas antes do fim da campanha'
+      active_btn: 'Lembre-me desta campanha'
+      deactive_btn: 'Não quero mais ser lembrado'
+    send_to_analysis: Sua campanha foi enviado para nossa equipe.
+    send_to_analysis_error: Erro ao enviar campanha para análise. Preencha todos os campos obrigatórios.
+    push_to_online: Sua campanha está online!
+    push_to_online_error: Erro ao colocar a campanha online. Preencha todos os campos obrigatórios.
+    twitter:
+      take_a_look: Confira a campanha %{name} na @entropia_coletiva
+    video_embed:
+      a_project_by_html: Uma campanha de %{link} no
+    posts:
+      project_post:
+        exclusive: 'Post exclusivo para apoiadores.'
+        unavailable: Esta postagem do Diário só está disponível para apoiadores.
+        contribute: Apoie
+        unavailable_contribute: esta campanha para visualizá-la.
+        destroy: Remover postagem do Diário
+        destroy_confirmation: Deseja remover esta postagem do Diário?
+      new:
+        notice: Postagem no Diário de Laboratório enviada com sucesso!
+        comment: Texto da sua postagem
+        exclusive: Visível apenas para apoiadores
+        submit: Enviar postagem
+        title: Título da sua postagem no Diário de Laboratório
+        warning: Lembrando que todo post no Diário de Laboratório vai diretamente para o e-mail de
+          seus apoiadores. Por isso, revise bem seu texto antes de enviá-lo.
+    project_reports:
+      all_contributions_without_reward: Baixar relatório de todos os apoiadores
+        que não selecionaram uma recompensa
+      link_reports_confirmed: Baixar relatório de todos os apoiadores confirmados
+      link_reports_waiting_confirmation: Baixar relatório de todos os apoiadores
+        com boleto impresso
+      link_reward: Baixar relatório dos apoiadores da recompensa de %{value}
+    project_about:
+      embed: < embed >
+      embed_title: Incorpore esta campanha no seu site
+      active_btn: ' Lembrar-me'
+      deactive_btn: ' Lembrete ativo'
+    show:
+      menu:
+        panel_html: "&nbsp;&nbsp;Painel de controle"
+        about: Sobre
+        add_reward: Adicionar recompensa
+        comments: Discussão
+        contributions: Apoios
+        metrics: Métricas
+        edit: Edição
+        reports: Relatórios
+        posts: Diário do Laboratório
+    project_main:
+      post_call: 'Toda postagem publicada no Diário do Laboratório de sua campanha é enviada diretamente para o e-mail de quem já apoiou sua campanha e também fica disponível para visualização no site.'
+      send_post: 'Escrever página do diário'
+      share: "Compartilhe"
+      tweet: "Tweet"
+      contribute_project:
+        display_status:
+          approved: "Essa campanha já foi aprovado pela Entropia Coletiva. Em breve ele entrará no ar e estará pronto para receber apoios."
+          online: "Você pode apoiar esta campanha até o dia %{date} às 23h59m59s"
+          failed: "Esta campanha não atingiu a meta estipulada de %{goal} até %{date}."
+          rejected: "Esta campanha não foi aceito. Não é possível realizar um apoio."
+          in_analysis: "Esta campanha está em análise e ainda não está aberto para receber apoios."
+          successful: "Esta campanha foi bem-sucedido e foi financiado em %{date}"
+          waiting_funds: "O prazo de captação dessa campanha está encerrado. Estamos aguardando a confirmação dos últimos pagamentos."
+          draft: "Esta campanha é apenas um rascunho e ainda não pode receber apoios."
+        submit: Apoiar esta campanha
+      project_by: campanha por
+      funding_period: Período de campanha
+      project_header:
+        subtitle_html: "Uma campanha de %{link}"
+        without_city: "Uma campanha de"
+        with_city: "Uma campanha de %{category_name} por %{author} em %{city}"
+      menu:
+        about: Sobre
+        add_reward: Adicionar recompensa
+        comments: Comentários
+        contributions: Apoios
+        metrics: Métricas
+        edit: Edição
+        reports: Relatórios
+        posts: Diário do Laboratório
+      no_rewards_warning: Planeje a entrega de suas recompensas. Poste no seu Diário de Laboratório. Explique o dia a dia da sua pesquisa.
+      no_rewards_warning_title: Crie aqui suas recompensas
+      contribution_states:
+        confirmed: "Confirmados"
+        pending: "Pendentes"
+      sidebar:
+        contributions: apoios
+        goal: alcançados de %{total}
