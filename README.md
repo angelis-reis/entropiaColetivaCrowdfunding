@@ -1,14 +1,23 @@
 # Entropia Coletiva
 
+Primeira plataforma de financiamento coletivo de projetos científicos do Brasil.
+
+Projeto idealizado e realizado pro Frederico Reis e Patricia Bado.
+
+Startup acelerada pelo programa Startup Rio 2016. http://www.startuprio.rj.gov.br/
+
+Projeto descontinuado em 2019.
+
 The first science crowdfunding platform from Brazil
 
 
 
 Welcome to Entropia Coletiva's source code repository.
+
 Our goal with opening the source code is to stimulate the creation of a community of developers around a high-quality crowdfunding platform.
 
 You can see the software in action in http://Entropia Coletiva.me.
-The official repo is https://github.com/Entropia Coletiva/Entropia Coletiva
+
 
 ## Getting started
 
